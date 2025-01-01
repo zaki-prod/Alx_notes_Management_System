@@ -1,0 +1,48 @@
+{% include 'navbar.html' %}
+{% load static %}
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>ALX Notes is a Simple Notes Management System developed by Amir using Python Django, HTML, CSS, Bootstrap, and SQLite.</p>
+  <p>This project allows users to manage and access their notes conveniently anytime, anywhere. Designed with simplicity and efficiency in mind, ALX Notes is an intuitive tool for students and professionals.</p>
+</div>
+<br><br>
+<h2 style="text-align:center">The Creator</h2>
+<div class="row offset-3">
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'images/zaki.jpg' %}" alt="Amir" style="border-radius: 50%;">
+      <div class="container">
+        <h2>Amir Micael</h2>
+        <p class="title">About Me</p>
+        <p>I am a Software Engineer from the Alx Cohort 22, specializing in Frontend Development. With a strong focus on creating seamless user experiences, I bring innovative solutions to life through modern technologies and design principles.</p>
+        <p>zakiprod04@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  {% comment %} <div class="column">
+    <div class="card">
+      <img src="{% static 'images/avatar-5.png' %}" alt="Abhi" style="border-radius: 50%;">
+      <div class="container">
+        <h2>Abhishek Pandey</h2>
+        <p class="title">Software Developer</p>
+        <p>The role of a software developer engages in identifying, designing, installing and testing a software system they have built for a company from the ground.</p>
+        <p>abhi@gmail.com</p> {% endcomment %}
+        {% comment %} <p><button class="button">Contact</button></p> {% endcomment %}
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+

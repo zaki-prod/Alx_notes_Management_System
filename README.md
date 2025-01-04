@@ -93,5 +93,5 @@ This project is licensed under the MIT License.
 
 Contact
 
-Developed by Amir MicaelFor any queries, reach out to me at: zakiprod04@gmail.com
+Developed by Amir Micael For any queries, reach out to me at: zakiprod04@gmail.com
 
